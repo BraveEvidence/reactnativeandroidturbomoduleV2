@@ -13,7 +13,7 @@ std::shared_ptr<TurboModule> MainApplicationModuleProvider(
   // either your application or from external libraries. The approach to follow
   // is similar to the following (for a library called `samplelibrary`:
   //
-  auto module = samplelibrary_ModuleProvider(moduleName, params);
+  auto module = calculator_ModuleProvider(moduleName, params);
   if (module != nullptr) {
      return module;
   }
